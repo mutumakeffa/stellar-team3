@@ -26,7 +26,7 @@ LumenPay uses a number of open source projects to work properly:
 - [Material UI](https://mui.com/) MUI provides a robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop React applications faster.
 ## Presentation
 
-<a href="presentation/LumenPay.pdf"> LumenPay.pdf </a>
+Read more about Lumen <a href="presentation/LumenPay.pdf"> LumenPay.pdf </a>
 
 ## Installation
 
