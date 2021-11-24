@@ -109,8 +109,6 @@ export const Account = ({
   // 🌎 Render Account view UI
   return (
     <div>
-      
-
       <div className='Welcome__back'>
           <div>
             <Heading5>Welcome back</Heading5>
@@ -183,8 +181,6 @@ export const Account = ({
         onClose={() => setMakePaymentModalVisible(false)}
         onDone={handleMakePayment}
       />
-
-    
     </div>
   );
 };

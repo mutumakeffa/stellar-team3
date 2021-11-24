@@ -22,8 +22,15 @@
   color: #61dafb;
 }
 
+.Intro__buttons {
+  display: flex;
+  padding: 1rem;
+  margin-left: 1rem
+}
+
 .Intro__buttons button {
-  margin-bottom: 1rem;
+  float: left;
+  margin: 1rem;
 }
 
 .Account__copyLinks {
@@ -35,11 +42,12 @@
 }
 
 .Account__buttons {
-  display: flex;
+  /* display: flex; */
   margin-bottom: 1rem;
 }
 
 .Account__buttons button {
+  display: flex;
   float: left;
   margin: 1rem
 }
@@ -108,5 +116,32 @@
 .Welcome__back button {
   float: left;
   margin-right: 2rem
+}
+
+/* .Registration__page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+} */
+.Registration__page {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  height: 100vh;
+}
+
+.Registration__inner {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Registration__title {
+  padding: .5em
 }
 

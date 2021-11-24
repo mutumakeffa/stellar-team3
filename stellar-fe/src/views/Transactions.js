@@ -9,7 +9,7 @@ export function Transactions() {
             <Heading5>View all your transactions</Heading5>
 
             <div className="Fetch__transactions">
-                <Button onClick={fetchTransactions()}>
+                <Button >
                     fetch all transactions
                 </Button>
             </div>
