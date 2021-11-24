@@ -30,15 +30,13 @@ LumenPay uses a number of open source projects to work properly:
 
 LumenPay requires [Node.js](https://nodejs.org/) v10+ to run.
 
-Install node
-Run 
+After installing node, run
 ```sh
 npm install
 ```
-
+Then 
 ```sh
 npm start
-node app
 ```
 
 ## License
