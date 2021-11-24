@@ -24,7 +24,9 @@ LumenPay uses a number of open source projects to work properly:
 - [Stellar SDK](https://github.com/stellar/js-stellar-sdk) - js-stellar-sdk is a Javascript library for communicating with a Stellar Horizon server. It is used for building Stellar apps either on Node.js or in the browser.
 - [React JS](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [Material UI](https://mui.com/) MUI provides a robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop React applications faster.
+## Presentation
 
+<a href="presentation/LumenPay.pdf"> </a>
 
 ## Installation
 
