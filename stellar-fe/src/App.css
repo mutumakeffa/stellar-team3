@@ -1,19 +1,13 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +16,97 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Intro__buttons button {
+  margin-bottom: 1rem;
 }
+
+.Account__copyLinks {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.Account__buttons {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.Account__buttons button {
+  float: left;
+  margin: 1rem
+}
+
+.Balances {
+  border-collapse: collapse;
+  font-size: var(--font-size-secondary);
+  line-height: 1.5rem;
+  color: var(--pal-text-secondary);
+  margin-bottom: 1rem;
+  min-width: 320px;
+}
+
+.Balances tr:not(:last-child) {
+  border-bottom: 1px solid var(--pal-border-primary);
+}
+
+.Balances td {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  word-break: break-word;
+  vertical-align: middle;
+}
+
+.Balances td:last-child {
+  text-align: none;
+}
+
+.Cards__section {
+  display: flex;
+  margin-top: 6rem;
+}
+
+.Cards__section div {
+  float: left;
+  background: rgb(52, 52, 78);
+  margin-right: 4rem;
+  text-align: center;
+  padding: .4rem;
+  padding-top: 1rem;
+  border-radius: 4px
+
+}
+
+.Transaction__history {
+  text-align: 'center'
+}
+.Transaction__history .Fetch__transactions {
+  text-align: 'center'
+}
+
+.Fetch__transactions {
+  text-align: 'center'
+}
+
+.Welcome__back {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.Welcome__back div {
+  float: left;
+  margin-right: 12rem
+}
+
+.Welcome__back button {
+  float: left;
+  margin-right: 2rem
+}
+

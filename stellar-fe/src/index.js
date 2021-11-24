@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// 🌎 Importing styles for Stellar Design System
+import "@stellar/design-system/build/styles.min.css";
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

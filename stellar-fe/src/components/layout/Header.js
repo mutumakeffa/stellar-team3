@@ -18,7 +18,8 @@ import Tooltip from '@mui/material/Tooltip';
 const lightColor = 'rgba(255, 255, 255, 0.7)';
 
 function Header(props) {
-  const { onDrawerToggle } = props;
+  const { onDrawerToggle, handleWallet, handleTransactions, handlePeople, value } = props;
+  // const [value, setValue] = React.useState(0)
 
   return (
     <React.Fragment>
@@ -96,9 +97,10 @@ function Header(props) {
         </Toolbar> */}
       </AppBar>
       <AppBar component="div" position="static" elevation={0} sx={{ zIndex: 0 }}>
-        <Tabs value={0} textColor="inherit">
-          <Tab label="Employees" />
-          <Tab label="Transactions" />
+        <Tabs value={value} textColor="inherit">
+          <Tab label="Wallet" onClick={handleWallet}/>
+          <Tab label="Transactions" onClick={handleTransactions}/>
+          <Tab label="People" onClick={handlePeople}/>
         </Tabs>
       </AppBar>
     </React.Fragment>

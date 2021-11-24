@@ -20,22 +20,24 @@ import PhonelinkSetupIcon from '@mui/icons-material/PhonelinkSetup';
 
 const categories = [
   {
-    id: 'Employees',
-    children: [
+    id: 'Dashboard',
+    children: [      
+      { 
+        id: 'Wallet', 
+        icon: <PhonelinkSetupIcon /> ,
+        active: true,
+      },
       {
         id: 'People',
         icon: <PeopleIcon />,
-        active: true,
       },
       { id: 'Reports', icon: <PermMediaOutlinedIcon /> },
       { id: 'Locations', icon: <PublicIcon /> },
-      // { id: 'Database', icon: <DnsRoundedIcon /> }
     ],
   },
   {
     id: 'Payments',
     children: [
-      { id: 'Wallet', icon: <PhonelinkSetupIcon /> },
       { id: 'Process payroll', icon: <SettingsIcon /> },
     ],
   },
